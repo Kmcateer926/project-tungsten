@@ -1,15 +1,17 @@
 {{> header}}
+<section class="hero-is-full-height editHero3">
+    <div class="columns">
+        <div class="column">
 
-<div class="container">
-    <div class="row">
-        <div class="col-sm-3"></div>
-        <div class="col-sm-6">
+
             <form id="new-tool">
                 <div class="mb-3">
+                    {{!-- //name of the tools being rented out --}}
                     <label for="name" class="form-label">Tool Name</label>
                     <input type="text" class="form-control" id="name">
                 </div>
                 <div class="mb-3">
+                    {{!-- //search tool by category --}}
                     <label for="category" class="form-label">Tool Category</label>
                     <input type="text" class="form-control" id="category">
                 </div>
@@ -21,11 +23,12 @@
                     <label for="minNumPlayers" class="form-label">Game Minimum Number of Players</label>
                     <input type="text" class="form-control" id="minNumPlayers">
                 </div> --}}
+                {{!-- //submit button --}}
                 <button type="submit" class="btn btn-primary">Submit</button>
             </form>
+
         </div>
     </div>
-</div>
-
+</section>
 
 <script type="text/javascript" src="/assets/js/newTool.js"></script>

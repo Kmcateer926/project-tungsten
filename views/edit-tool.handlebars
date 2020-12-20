@@ -1,10 +1,12 @@
 {{> header}}
+
 <div class="columns">
     <div class="column">
         <div class="col-sm-6">
             <form id="edit-profile" data-id="{{id}}">
 
                 <div class="mb-3">
+                    {{!-- //tool being posted to rent out --}}
                     <label for="firstName" class="form-label">Tool:</label>
                     <input type="text" class="form-control" id="firstName" value="{{name}}">
                 </div>
@@ -13,8 +15,9 @@
                     <input type="text" class="form-control" id="lastName" value="{{category}}">
                 </div>
                 <div class="mb-3"> --}}
-            
+
                 </div>
+                {{!-- // button to update profile info and tool info --}}
                 <button type="submit" class="btn btn-primary">Update</button>
             </form>
         </div>

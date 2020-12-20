@@ -32,6 +32,8 @@ Tungsten Tools is designed to provide users with the opportunity to exchange han
 
 ## Usage
 
+Please follow the link to see a video demonstrating how the app preforms: https://youtu.be/_J5csGEjbm4
+
 ## License
 
 MIT: A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.
@@ -42,8 +44,14 @@ Credit goes to Jenna LaFrancois, Drew Amerson, Kevin McAteer and Tara Martin.
 
 ## Test
 
-To test the app, please visit
+To test the app, please visit: https://floating-crag-67869.herokuapp.com/
 
 ## Contact
 
-Please contact me for questions, comments and concerns:
+For questions, comments and concerns:
+
+Tara Martin: martin.tara117@gmail.com https://github.com/martintara117
+Kevin McAteer: kmcateer926@gmail.com https://github.com/Kmcateer926
+Andrew Amerson: aamerson198@gmail.com https://github.com/aamerson198
+Jenna La Francois: jenna.lafrancois@gmail.com https://github.com/jennalala
+

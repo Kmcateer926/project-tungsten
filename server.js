@@ -30,6 +30,7 @@ app.use(
 );
 // Static directory to be served
 app.use(express.static("public"));
+app.use(express.static('./project-tungsten/public'))
 app.use(passport.initialize());
 app.use(passport.session());
 
@@ -81,6 +82,7 @@ app.post("/api/login", passportConfig.authenticate("local"), (req, res) => {
   res.redirect("/");
 });
 
+//post route to create user profile and tool listed for rent
 app.post("/api/profiles", (req, res) => {
   db.Profile.create({
     email: req.body.email,
@@ -121,6 +123,7 @@ app.get("/api/search/:search", (req, res) => {
   });
 });
 
+// uses sequelize and post route to the db
 app.post("/api/test", (req, res) => {});
 // db.sequelize.sync({ force: true }).then(() => {
 db.sequelize.sync().then(() => {

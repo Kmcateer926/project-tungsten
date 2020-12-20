@@ -3,10 +3,6 @@ module.exports = function (sequelize, DataTypes) {
     "Tool",
     {
       name: DataTypes.STRING,
-      // category: DataTypes.STRING,
-      // maxNumProfiles: DataTypes.INTEGER,
-      // minNumProfiles: DataTypes.INTEGER,
-      // TODO: Time range
     },
     { timestamps: false }
   );

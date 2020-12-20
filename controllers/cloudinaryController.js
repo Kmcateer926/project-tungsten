@@ -13,10 +13,8 @@ const parser = new DatauriParser();
 // TODO: Move these to environment variables
 cloudinary.config({
   cloud_name: "dnmpdqhrd",
-  // api_key: process.env.S3_KEY,
-  // api_secret: process.env.S3_SECRET
-  api_key: "959694383232459",
-  api_secret: "Vyrs0bOFY1W87yax2JS8y2dJgK4",
+  api_key: process.env.S3_KEY,
+  api_secret: process.env.S3_SECRET,
 });
 
 // var myWidget = cloudinary.createUploadWidget(

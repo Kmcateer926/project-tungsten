@@ -4,10 +4,6 @@ module.exports = function (sequelize, DataTypes) {
     //info pulled from db
     {
       name: DataTypes.STRING,
-      // category: DataTypes.STRING,
-      // maxNumProfiles: DataTypes.INTEGER,
-      // minNumProfiles: DataTypes.INTEGER,
-      // TODO: Time range
     },
     { timestamps: false }
   );

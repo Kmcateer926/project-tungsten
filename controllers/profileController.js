@@ -24,7 +24,6 @@ router.get("/create-profile", (req, res) => {
   res.render("create-profile");
 });
 
-
 router.get("/profiles/:id", (req, res) => {
   console.log("Single profile");
   db.Profile.findOne({
@@ -51,7 +50,6 @@ router.get("/profiles/:id", (req, res) => {
     });
 });
 
-
 router.get("/profiles/:id/edit", (req, res) => {
   db.Profile.findOne({
     where: {
@@ -65,7 +63,7 @@ router.get("/profiles/:id/edit", (req, res) => {
       lastName: foundProfile.lastName,
       cityName: foundProfile.cityName,
       id: foundProfile.id,
-    })
+    });
   });
 });
 
@@ -82,7 +80,6 @@ router.post("/api/profiles", (req, res) => {
 router.put("/api/profiles/:id", (req, res) => {
   console.log("line 86");
   db.Profile.update(req.body, {
-    
     where: {
       id: Number(req.params.id),
     },
